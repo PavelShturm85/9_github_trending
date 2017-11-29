@@ -1,6 +1,6 @@
 # Github Trends
 
-**The module finds all the repositories created in the last week, select 20 with the highest score and outputs theirs open issues amount and url to the terminal.**
+**The module finds all the repositories created at the last week, with the highest score and outputs theirs open issues and url to the terminal.**
 
 # How to Install
 
@@ -14,33 +14,34 @@ pip install -r requirements.txt # alternatively try pip3
 
 # Quickstart
 **Ways to use:**
-- Have to use  module `github_trending.py` after `python3`.
+- Have to use  module `github_trending.py` after `python3`, then `enter amount repositories:`.
 
 Example of script launch on Linux, Python 3.5:
 
 ```bash
 $ python3 github_trending.py
-1) 	   open issues:0 	 https://api.github.com/repos/rsc/2fa
-2) 	   open issues:0 	 https://api.github.com/repos/evilsocket/sg1
-3) 	   open issues:0 	 https://api.github.com/repos/yunjey/StarGAN
-4) 	   open issues:9 	 https://api.github.com/repos/iaolo/iA-Fonts
-5) 	   open issues:6 	 https://api.github.com/repos/browserify/rustify
-6) 	   open issues:2 	 https://api.github.com/repos/Ridter/CVE-2017-11882
-7)  	 open issues:3 	 https://api.github.com/repos/fungos/cr
-8)   	 open issues:1 	 https://api.github.com/repos/tucaz/agile-development-cheat-sheet
-9) 	   open issues:1 	 https://api.github.com/repos/Pau1fitz/react-spotify
-10) 	 open issues:1 	 https://api.github.com/repos/erikras/react-final-form
-11) 	 open issues:0 	 https://api.github.com/repos/hegusung/AVSignSeek
-12) 	 open issues:0 	 https://api.github.com/repos/erikras/final-form
-13) 	 open issues:2 	 https://api.github.com/repos/xuningjack/ServiceKeep
-14) 	 open issues:0 	 https://api.github.com/repos/nicklockwood/Sprinter
-15) 	 open issues:6 	 https://api.github.com/repos/pytorch/ignite
-16) 	 open issues:1 	 https://api.github.com/repos/appwise-labs/NoInternetDialog
-17) 	 open issues:0 	 https://api.github.com/repos/florent37/MyLittleCanvas
-18) 	 open issues:0 	 https://api.github.com/repos/clcarwin/SFD_pytorch
-19) 	 open issues:6 	 https://api.github.com/repos/waterlink/Challenge-Build-Your-Own-Array-In-Js
-20) 	 open issues:3 	 https://api.github.com/repos/andrewchambers/godothecorrectthing
-
+Enter amount repositories: 5
+repository №1, name:StarGAN:
+open issue:1 	 https://api.github.com/repos/yunjey/StarGAN/issues/3
+open issue:2 	 https://api.github.com/repos/yunjey/StarGAN/issues/2
+repository №2, name:PWA-Book-CN:
+open issue:1 	 https://api.github.com/repos/SangKa/PWA-Book-CN/issues/7
+open issue:2 	 https://api.github.com/repos/SangKa/PWA-Book-CN/issues/6
+open issue:3 	 https://api.github.com/repos/SangKa/PWA-Book-CN/issues/5
+open issue:4 	 https://api.github.com/repos/SangKa/PWA-Book-CN/issues/4
+open issue:5 	 https://api.github.com/repos/SangKa/PWA-Book-CN/issues/2
+repository №3, name:rustify:
+open issue:1 	 https://api.github.com/repos/browserify/rustify/issues/8
+open issue:2 	 https://api.github.com/repos/browserify/rustify/issues/6
+open issue:3 	 https://api.github.com/repos/browserify/rustify/issues/5
+open issue:4 	 https://api.github.com/repos/browserify/rustify/issues/4
+open issue:5 	 https://api.github.com/repos/browserify/rustify/issues/3
+open issue:6 	 https://api.github.com/repos/browserify/rustify/issues/2
+repository №4, name:iA-Fonts:
+open issue:1 	 https://api.github.com/repos/iaolo/iA-Fonts/issues/13
+open issue:2 	 https://api.github.com/repos/iaolo/iA-Fonts/issues/9
+repository №5, name:agile-development-cheat-sheet:
+open issue:1 	 https://api.github.com/repos/tucaz/agile-development-cheat-sheet/issues/1
 
 ```
 
