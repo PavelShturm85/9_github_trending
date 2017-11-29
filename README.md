@@ -14,13 +14,13 @@ pip install -r requirements.txt # alternatively try pip3
 
 # Quickstart
 **Ways to use:**
-- Have to use  module `github_trending.py` after `python3`, then `enter amount repositories:`.
+- Have to use  module `github_trending.py` after `python3`, with `number repositories`.
+But if you foget enter `number repositories` , by default will be 10.
 
 Example of script launch on Linux, Python 3.5:
 
 ```bash
-$ python3 github_trending.py
-Enter amount repositories: 5
+$ python3 github_trending.py 5
 repository №1, name:StarGAN:
 open issue:1 	 https://api.github.com/repos/yunjey/StarGAN/issues/3
 open issue:2 	 https://api.github.com/repos/yunjey/StarGAN/issues/2
