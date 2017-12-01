@@ -27,14 +27,15 @@ def get_open_issues(repositories):
     return issues
 
 
-def print_open_issues(issues, repositories):
-    for number_repository, repository in enumerate(repositories, 1):
-        print('repository №{}, name:{}:'.format(
-            number_repository, repository['name']))
-        # Because the numbering in the list begins with [0], so we use -1.
-        for number_issue, issue in enumerate(issues[number_repository-1], 1):
-            print('open issue:{} \t {}'.format(
-                number_issue, issue['url']))
+def print_issues_amount(issues, repositories):
+
+    for number, (repository, issue) in enumerate(zip(repositories, issues), 1):
+            print('{}) Progect name: {} \t amount issues:{} \t {}'.format(
+                number,
+                repository['name'],
+                len(issue),
+                repository['html_url']
+            ))
 
 
 if __name__ == '__main__':
@@ -44,4 +45,4 @@ if __name__ == '__main__':
         input_amount = 10
     repositories = get_trending_repositories(input_amount)
     issues = get_open_issues(repositories)
-    print_open_issues(issues, repositories)
+    print_issues_amount(issues, repositories)

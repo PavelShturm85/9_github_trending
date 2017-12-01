@@ -1,6 +1,6 @@
 # Github Trends
 
-**The module finds all the repositories created at the last week, with the highest score and outputs theirs open issues and url to the terminal.**
+**The module finds all the repositories created at the last week, with the highest score and outputs amount issues and progect url to the terminal.**
 
 # How to Install
 
@@ -20,28 +20,14 @@ But if you foget enter `number repositories` , by default will be 10.
 Example of script launch on Linux, Python 3.5:
 
 ```bash
-$ python3 github_trending.py 5
-repository №1, name:StarGAN:
-open issue:1 	 https://api.github.com/repos/yunjey/StarGAN/issues/3
-open issue:2 	 https://api.github.com/repos/yunjey/StarGAN/issues/2
-repository №2, name:PWA-Book-CN:
-open issue:1 	 https://api.github.com/repos/SangKa/PWA-Book-CN/issues/7
-open issue:2 	 https://api.github.com/repos/SangKa/PWA-Book-CN/issues/6
-open issue:3 	 https://api.github.com/repos/SangKa/PWA-Book-CN/issues/5
-open issue:4 	 https://api.github.com/repos/SangKa/PWA-Book-CN/issues/4
-open issue:5 	 https://api.github.com/repos/SangKa/PWA-Book-CN/issues/2
-repository №3, name:rustify:
-open issue:1 	 https://api.github.com/repos/browserify/rustify/issues/8
-open issue:2 	 https://api.github.com/repos/browserify/rustify/issues/6
-open issue:3 	 https://api.github.com/repos/browserify/rustify/issues/5
-open issue:4 	 https://api.github.com/repos/browserify/rustify/issues/4
-open issue:5 	 https://api.github.com/repos/browserify/rustify/issues/3
-open issue:6 	 https://api.github.com/repos/browserify/rustify/issues/2
-repository №4, name:iA-Fonts:
-open issue:1 	 https://api.github.com/repos/iaolo/iA-Fonts/issues/13
-open issue:2 	 https://api.github.com/repos/iaolo/iA-Fonts/issues/9
-repository №5, name:agile-development-cheat-sheet:
-open issue:1 	 https://api.github.com/repos/tucaz/agile-development-cheat-sheet/issues/1
+$ python3 github_trending.py 6
+1) Progect name:PWA-Book-CN 	             amount issues:5 	 https://github.com/SangKa/PWA-Book-CN
+2) Progect name:StarGAN 	                 amount issues:5 	 https://github.com/yunjey/StarGAN
+3) Progect name:deep-image-prior 	         amount issues:3 	 https://github.com/DmitryUlyanov/deep-image-prior
+4) Progect name:rustify 	                 amount issues:6 	 https://github.com/browserify/rustify
+5) Progect name:stream-audio-fingerprint 	 amount issues:0 	 https://github.com/dest4/stream-audio-fingerprint
+6) Progect name:py2rs 	                   amount issues:2 	 https://github.com/rochacbruno/py2rs
+
 
 ```
 
